@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<button id="switch" onclick="toggleTheme()">Switch Theme</button><br><br>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./neighbor.html">Neighborhood</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+    <h1>Las Vegas NV</h1>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WmsG0tnEMgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p> Iam living in a place that is very  convenient to  restaurant, grocery store, pharmacy, shopping area etc. If you decide to stay close to my area. Click and find out what restaurant or store are nearby. </p>
+
+    <h3>Hungry? Click below for suggestion</h3>
+	<input type = "button" onclick = "restoName()" value = "Click">  
+	 <p id="clicked1"></p>
+ 
+	 <h3>Need to go to store? Click for suggestion</h3>
+	 <input type = "button" onclick = "storeName()" value = "Click">  
+	 <p id="clicked2"></p>
+
+	 
+	 <h3>Casino? Click for suggestion</h3>
+	 <input type = "button" onclick = "casinoName()" value = "Click">  
+	 <p id="clicked3"></p>
+
+	</div>
+
+    <script src ="neighbor.js"></script>
+    </body>
+    </html>
